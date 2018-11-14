@@ -70,9 +70,14 @@ header {
   height: 200px;
   width: 200px;
   display: inline-block;
-  border: 1px solid black;
+  border: 6px solid #3705fe;
+
 }
 
+.final-contact {
+    background-color: #3705fe;
+    padding: 15px;
+}
 
 .bar {
   background-color: #3705fe;
