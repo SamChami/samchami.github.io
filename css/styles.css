@@ -1,3 +1,125 @@
+.separator {
+    background-color: #3705fe;
+    width: 50%;
+    height: 3px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translateX(-50%);
+    animation-name: expand;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    animation-direction: alternate;
+
+        
+}
+
+@keyframes expand {
+    from {width: 40%;}
+    to {width: 50%;}
+}
+
+.job-box {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.job-title {
+    font-size: 1.1em;
+}
+
+.job-company {
+    font-style: italic;
+}
+
+header {
+    z-index: 50;
+    text-align: center;
+}
+
+.center-logo {
+    margin-bottom: 20px;
+}
+
+.navbar {
+  
+    background-color: transparent;
+}
+
+.nav-butt {
+    margin-left: 4;
+}
+
+.logo {
+    z-index: 100;
+    height:60px;
+    width: auto;
+    position: fixed;
+    top: 10px;
+}
+
+.vertical-bars {
+  position: fixed;
+    top: 40px;
+}
+
+.headshot {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+
+.bar {
+  background-color: #3705fe;
+  width: 5px;
+  margin-left: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bar-bio {
+  height: 70vh;
+  z-index: 1;
+  margin-left: 17px;
+}
+
+.bar-experience {
+  height: 65vh;
+  z-index: 3;
+
+}
+
+.bar-education {
+  height: 60vh;
+  z-index: 5;
+
+}
+
+.bar-skills {
+  height: 55vh;
+  z-index: 7;
+
+}
+
+.bar-projects {
+  height: 50vh;
+  z-index: 9;
+}
+
+.bio {
+    z-index: 20;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    
+}
+
+
 .quote-box {
   margin: 5em 0px 5em 0px;
 }
@@ -49,13 +171,13 @@ ul.banner-social-buttons {
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
-  background-color: white;
-  color: black;
+  background-color: #3705fe;
+  color: white;
 
 }
 
 .btn-default {
-  color: #FFFFFF;
-  border: 1px solid #FFFFFF;
+  color: #3705fe;
+  border: 1px solid #3705fe;
   background-color: transparent;
 }
