@@ -2,18 +2,30 @@
     background-color: #3705fe;
     width: 50%;
     height: 3px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 10px;
     margin-left: 50%;
     margin-right: 50%;
     transform: translateX(-50%);
     animation-name: expand;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-
     animation-direction: alternate;
+}
 
-        
+.title {
+  text-align: center;
+
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.title-text {
+  color: #3705fe;
+  font-size: 22px;
+}
+.title-img {
+  width: 100px;
+  height: 100px;
 }
 
 @keyframes expand {
@@ -40,11 +52,10 @@ header {
 }
 
 .center-logo {
-    margin-bottom: 20px;
 }
 
 .navbar {
-  
+
     background-color: transparent;
 }
 
@@ -121,12 +132,12 @@ header {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: white;
-    
+
 }
 
 
 .quote-box {
-  margin: 5em 0px 5em 0px;
+  margin: 4em 0px 4em 0px;
 }
 
 .quote-box .quote {
@@ -141,7 +152,7 @@ header {
 }
 
 ul.banner-social-buttons {
-  margin-top: 0;
+  margin-top: 40px;
 }
 
 @media (max-width: 1199px) {
