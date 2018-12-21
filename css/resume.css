@@ -194,13 +194,10 @@ a:hover, a:focus, a:active {
 .skills-descriptor {
   font-size: 20px;
   position: relative;
-  padding-bottom: 10px;
   margin: auto;
   display: none;
+  vertical-align: middle;
   width: 0px;
-  -webkit-transition: width 2s; /* Safari */
-  transition: width 2s;
-
 }
 
 @keyframes appear {
