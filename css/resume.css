@@ -212,3 +212,12 @@ a:hover, a:focus, a:active {
   animation-duration: .2s;
   display: inline-block;
 }
+
+.proj-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.proj-heading {
+  margin-top: 20px;
+}
